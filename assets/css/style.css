@@ -3,11 +3,11 @@
     padding: 0;
     margin: 0;
 }
-
+/*sets background-color white*/
 body {
     background-color: #d9dcd6;
 }
-
+/*makes the background of header blue and the text white*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,7 +23,7 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* sets font to header sections*/
 .header section {
     padding-top: 15px;
     margin-right: 20px;
@@ -84,19 +84,10 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    color: #ffffff;
 }
 
 .benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -156,6 +147,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/*sets font and align text for footer*/
 .footer {
     padding: 30px;
     clear: both;
